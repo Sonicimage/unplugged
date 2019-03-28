@@ -199,16 +199,16 @@ header nav {
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
 }
 
 
 header nav ul {
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    width: 100%;
 }
 
 header nav ul li {
