@@ -202,13 +202,15 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    
 }
-
 
 header nav ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding-left: 0;
+    margin: 0;
 }
 
 header nav ul li {
@@ -629,10 +631,13 @@ FAQ Page
         width: 100%;
     }
 
-    .faq h4,
+    .faq h4 {
+        font-size: 1.2em;
+    }
+
     .faq p {
-        font-size: .875em;
-        line-height: 1.125;
+        font-size: 1em;
+        line-height: 1.5;
     }
 }
 
@@ -641,6 +646,10 @@ FAQ Page
 
     .content-wrapper {
         max-width: 960px;
+    }
+
+    header nav {
+        width: 20%;
     }
 
     h2 {
@@ -724,12 +733,6 @@ FAQ Page
 
     .faq-content {
         flex-basis: 35%;
-    }
-
-    .faq h4,
-    .faq p {
-        font-size: 1.125em;
-        line-height: 1;
     }
 }
 
