@@ -372,6 +372,10 @@ About Page
     background-color: #527158;
 }
 
+.mission-content p {
+    line-height: 1.3;
+}
+
 .map figure {
     width: 100%;
     height: 0;
@@ -595,6 +599,7 @@ FAQ Page
 
     .mission-content p {
         width: 40%;
+        line-height: 1.5;
     }
 
     .map figure {
